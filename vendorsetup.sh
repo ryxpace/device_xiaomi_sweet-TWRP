@@ -46,6 +46,8 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export FOX_USE_TAR_BINARY=1
 	export FOX_USE_SED_BINARY=1
 	export FOX_USE_XZ_UTILS=1
+	export FOX_USE_LZ4_BINARY=1
+	export FOX_USE_ZSTD_BINARY=1
         export FOX_DELETE_AROMAFM=1
         export TARGET_DEVICE_ALT="sweetin"
 	export FOX_RECOVERY_SYSTEM_PARTITION="/dev/block/mapper/system"
