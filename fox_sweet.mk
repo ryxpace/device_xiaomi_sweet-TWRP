@@ -1,6 +1,6 @@
 #
 #	This file is part of the OrangeFox Recovery Project
-# 	Copyright (C) 2021-2023 The OrangeFox Recovery Project
+#	Copyright (C) 2021-2024 The OrangeFox Recovery Project
 #
 #	OrangeFox is free software: you can redistribute it and/or modify
 #	it under the terms of the GNU General Public License as published by
@@ -12,10 +12,10 @@
 #	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 #	GNU General Public License for more details.
 #
-# 	This software is released under GPL version 3 or any later version.
+#	This software is released under GPL version 3 or any later version.
 #	See <http://www.gnu.org/licenses/>.
 #
-# 	Please maintain this if you use this script or any part of it
+#	Please maintain this if you use this script or any part of it
 #
 
 # OrangeFox-specific settings
@@ -51,3 +51,6 @@ OF_STATUS_INDENT_RIGHT := 48
 OF_HIDE_NOTCH := 1
 OF_CLOCK_POS := 1
 
+# number of list options before scrollbar creation
+OF_OPTIONS_LIST_NUM := 9
+#
