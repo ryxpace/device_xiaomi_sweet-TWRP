@@ -138,6 +138,7 @@ TW_INCLUDE_RESETPROP := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
 TW_DEFAULT_BRIGHTNESS := 1200
+TW_MAX_BRIGHTNESS := 2047
 TW_Y_OFFSET := 91
 TW_H_OFFSET := -91
 TWRP_INCLUDE_LOGCAT := true
