@@ -139,7 +139,7 @@ TW_USE_TOOLBOX := true
 TW_INCLUDE_RESETPROP := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
-TW_DEFAULT_BRIGHTNESS := 1200
+TW_DEFAULT_BRIGHTNESS := 420
 TW_MAX_BRIGHTNESS := 2047
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
@@ -153,6 +153,7 @@ TW_INCLUDE_FASTBOOTD := true
 PB_TORCH_PATH := "/sys/class/leds/led:torch_0"
 PB_DISABLE_DEFAULT_DM_VERITY := true
 PB_DISABLE_DEFAULT_TREBLE_COMP := true
+PB_DEVICE_RATIO := "20:9"
 
 # Properties
 TW_OVERRIDE_SYSTEM_PROPS := "ro.build.fingerprint=ro.system.build.fingerprint;ro.build.version.incremental"
