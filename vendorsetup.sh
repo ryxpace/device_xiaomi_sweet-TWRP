@@ -52,7 +52,8 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export FOX_RECOVERY_VENDOR_PARTITION="/dev/block/mapper/vendor"
 
 	# R11.2 Settings
-	export FOX_VERSION="R11.2-1"
+	export FOX_MAINTAINER_PATCH_VERSION="01"
+	export FOX_BUILD_TYPE="Unofficial"
 	export OF_MAINTAINER="Ryx"
 
 else
