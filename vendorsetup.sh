@@ -48,6 +48,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export FOX_USE_XZ_UTILS=1
 	export FOX_USE_LZ4_BINARY=1
 	export FOX_USE_ZSTD_BINARY=1
+	export FOX_VANILLA_BUILD=1
         export FOX_DELETE_AROMAFM=1
         export TARGET_DEVICE_ALT="sweetin"
 	export FOX_RECOVERY_SYSTEM_PARTITION="/dev/block/mapper/system"
@@ -55,7 +56,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 
 	# R11.2 Settings
 	export FOX_MAINTAINER_PATCH_VERSION="1"
-	export FOX_BUILD_TYPE="Unofficial"
+	export FOX_BUILD_TYPE="vanilla"
 	export OF_MAINTAINER="Ryx"
 
 else
