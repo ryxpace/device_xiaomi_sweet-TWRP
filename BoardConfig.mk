@@ -154,7 +154,6 @@ TW_INCLUDE_FASTBOOTD := true
 PB_TORCH_PATH := "/sys/class/leds/led:torch_0"
 PB_DISABLE_DEFAULT_DM_VERITY := true
 PB_DISABLE_DEFAULT_TREBLE_COMP := true
-PB_DEVICE_RATIO := "20:9"
 
 # Properties
 TW_OVERRIDE_SYSTEM_PROPS := "ro.build.fingerprint=ro.system.build.fingerprint;ro.build.version.incremental"
