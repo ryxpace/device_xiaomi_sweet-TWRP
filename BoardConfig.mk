@@ -157,3 +157,6 @@ TW_OVERRIDE_SYSTEM_PROPS := "ro.build.fingerprint=ro.system.build.fingerprint;ro
 
 # Vibrator
 TW_SUPPORT_INPUT_AIDL_HAPTICS := true
+
+# TWRP Version
+TW_DEVICE_VERSION := sweet/in-R1
