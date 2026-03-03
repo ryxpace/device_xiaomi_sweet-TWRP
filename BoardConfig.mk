@@ -158,5 +158,11 @@ TW_OVERRIDE_SYSTEM_PROPS := "ro.build.fingerprint=ro.system.build.fingerprint;ro
 # Vibrator
 TW_SUPPORT_INPUT_AIDL_HAPTICS := true
 
+# Status Bar
+TW_STATUS_ICONS_ALIGN := center
+TW_CUSTOM_CPU_POS := "50"
+TW_CUSTOM_CLOCK_POS := "300"
+TW_CUSTOM_BATTERY_POS := "750"
+
 # TWRP Version
 TW_DEVICE_VERSION := sweet/in-R1
