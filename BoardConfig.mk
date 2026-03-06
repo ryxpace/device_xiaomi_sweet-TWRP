@@ -175,4 +175,4 @@ TW_CUSTOM_CLOCK_POS := "300"
 TW_CUSTOM_BATTERY_POS := "750"
 
 # TWRP Version
-TW_DEVICE_VERSION := sweet/in
+TW_DEVICE_VERSION := sweet/in-crDroid
