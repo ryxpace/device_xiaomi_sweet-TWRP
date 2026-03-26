@@ -52,6 +52,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 
   export FOX_SETTINGS_ROOT_DIRECTORY=/data/recovery
   export FOX_MISCELLANEOUS_ROOT_DIRECTORY=/sdcard
+  export FOX_ALLOW_EARLY_SETTINGS_LOAD=1
 
   # let's see what are our build VARs
   if [ -n "$FOX_BUILD_LOG_FILE" -a -f "$FOX_BUILD_LOG_FILE" ]; then
