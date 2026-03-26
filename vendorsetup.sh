@@ -48,6 +48,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
   export FOX_USE_XZ_UTILS=1
   export FOX_DELETE_AROMAFM=1
   export FOX_ENABLE_APP_MANAGER=0
+  export FOX_USE_DATE_BINARY=1
 
   # let's see what are our build VARs
   if [ -n "$FOX_BUILD_LOG_FILE" -a -f "$FOX_BUILD_LOG_FILE" ]; then
