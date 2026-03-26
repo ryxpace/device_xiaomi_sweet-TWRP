@@ -52,3 +52,6 @@ OF_CLOCK_POS := 1
 
 # number of list options before scrollbar creation
 OF_OPTIONS_LIST_NUM := 9
+
+# FRP
+OF_ENABLE_FRP_ADDON := 1
