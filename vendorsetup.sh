@@ -49,6 +49,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
   export FOX_DELETE_AROMAFM=1
   export FOX_ENABLE_APP_MANAGER=0
   export FOX_USE_DATE_BINARY=1
+  export FOX_VANILLA_BUILD=1
 
   export FOX_SETTINGS_ROOT_DIRECTORY=/data/recovery
   export FOX_MISCELLANEOUS_ROOT_DIRECTORY=/sdcard
