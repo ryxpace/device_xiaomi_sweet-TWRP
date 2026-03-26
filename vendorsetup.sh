@@ -55,7 +55,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
   export FOX_MISCELLANEOUS_ROOT_DIRECTORY=/sdcard
   export FOX_ALLOW_EARLY_SETTINGS_LOAD=1
 
-  # Maintainer & Variant Settings
+  # FOX Version & Variant Settings
   export FOX_VARIANT=crDroid
   export FOX_MAINTAINER_PATCH_VERSION=1
 

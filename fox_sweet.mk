@@ -52,3 +52,6 @@ OF_OPTIONS_LIST_NUM := 9
 
 # FRP
 OF_ENABLE_FRP_ADDON := 1
+
+# Maintainer
+OF_MAINTAINER := ryxpace
