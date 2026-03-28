@@ -53,5 +53,8 @@ OF_OPTIONS_LIST_NUM := 9
 # FRP
 OF_ENABLE_FRP_ADDON := 1
 
+# Disable additional checks for MIUI ROMs
+OF_NO_ADDITIONAL_MIUI_PROPS_CHECK := 1
+
 # Maintainer
 OF_MAINTAINER := ryxpace
