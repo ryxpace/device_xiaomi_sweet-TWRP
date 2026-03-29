@@ -56,5 +56,8 @@ OF_ENABLE_FRP_ADDON := 1
 # Disable additional checks for MIUI ROMs
 OF_NO_ADDITIONAL_MIUI_PROPS_CHECK := 1
 
+# Force casefolding
+OF_FORCE_CASEFOLDING := 1
+
 # Maintainer
 OF_MAINTAINER := ryxpace
