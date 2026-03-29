@@ -59,5 +59,8 @@ OF_NO_ADDITIONAL_MIUI_PROPS_CHECK := 1
 # Force casefolding
 OF_FORCE_CASEFOLDING := 1
 
+# Force the selection of f2fs when formatting data
+OF_FORCE_DATA_FORMAT_F2FS := 1
+
 # Maintainer
 OF_MAINTAINER := ryxpace
