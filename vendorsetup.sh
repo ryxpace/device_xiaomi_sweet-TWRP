@@ -57,7 +57,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 
   # FOX Version & Variant Settings
   export FOX_VARIANT=crDroid
-  export FOX_MAINTAINER_PATCH_VERSION=1
+  export FOX_MAINTAINER_PATCH_VERSION=2
 
   # let's see what are our build VARs
   if [ -n "$FOX_BUILD_LOG_FILE" -a -f "$FOX_BUILD_LOG_FILE" ]; then
