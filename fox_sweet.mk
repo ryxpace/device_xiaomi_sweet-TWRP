@@ -20,7 +20,6 @@
 
 # OrangeFox-specific settings
 OF_USE_GREEN_LED := 0
-OF_DONT_PATCH_ENCRYPTED_DEVICE := 1
 OF_NO_TREBLE_COMPATIBILITY_CHECK := 1
 
 OF_ENABLE_LPTOOLS := 1
@@ -30,7 +29,6 @@ OF_QUICK_BACKUP_LIST := /boot;/data;
 OF_PATCH_AVB20 := 1
 
 # OTA
-OF_KEEP_DM_VERITY := 1
 OF_DISABLE_MIUI_OTA_BY_DEFAULT := 1
 
 # try to prevent potential data format errors
