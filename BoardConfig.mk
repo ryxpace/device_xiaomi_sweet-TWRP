@@ -136,7 +136,7 @@ PLATFORM_VERSION_LAST_STABLE := $(PLATFORM_VERSION)
 # TWRP specific build flags
 TW_THEME := portrait_hdpi
 TW_INPUT_BLACKLIST := "hbtp_vm"
-TW_FRAMERATE := 60
+TW_FRAMERATE := 120
 TW_MAX_BRIGHTNESS := 2047
 TW_DEFAULT_BRIGHTNESS := 420
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
